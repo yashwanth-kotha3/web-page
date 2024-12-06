@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Protest+Revolution&display=swap');
+
+
+body{
+    background-color:black;
+    color:white;
+    margin: 0px;
+
+}
+
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    
+
+}
+
+.navleft{
+    padding:20px;
+}
+.imglogo{
+    height: 50px;
+}
+
+.navright{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.a-element{
+    padding: 10px;
+    
+    margin: 15px;
+}
+
+.home{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height:85vh;
+    
+
+}
+
+.homeleft{
+    padding-left:250px;
+    width:50vh;
+    text-align: right; 
+   
+}
+.hometitle{
+    font-size: 40px;
+    font-family:monospace;
+}
+.homep{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.homeright{
+    padding-right: 250px;
+    width:50vh;
+    
+}
+img{
+    height: 500px;
+}
+
+
+
+.sevices-h1{
+    color:rgb(226, 32, 71);
+    padding-left: 600px;
+    letter-spacing: 8px;
+    font-family: "Oswald", serif;
+    font-style: italic;
+}
+
+.ser-subcon{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.ser-subcard{
+    border: 2px solid rgb(107, 213, 107);
+    margin:30px;
+    text-align: center;
+
+    p{
+        padding:20px;
+        font-family: "Protest Revolution", sans-serif;
+    }
+
+}
+
+.test-img{
+    height: 50px;
+}
+
+
+.info{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.icons-img{
+    height: 100px;
+    
+    
+    
+}
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; /* Centers icons horizontally */
+        /* Centers icons vertically if needed */
+          /* Adds some spacing from other sections */
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;              /* Adds consistent spacing between icons */
+}
+
